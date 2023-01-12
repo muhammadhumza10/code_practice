@@ -1,0 +1,3 @@
+#!/home/muhammadhumza/my_practice/code_practice/Module_3/Material/Day_4/data-engineering-bootcamp-3.4-3.5-mlops/tasks/3_machine_learning_essentials/day_4_mlops/mlops-student/bin/python
+from numba.pycc import main
+main()

@@ -1,0 +1,14 @@
+﻿Commands used in the assignment:
+
+$ nano Dockerfile
+
+	FROM jupyter/minimal-notebook
+	
+	RUN pip3 install pandas
+
+saved as Dockerfile
+
+$ docker build . -t pandasjupyter
+
+$ docker run -p 8889:8889 -e NOTEBOOK_ARGS=--port=8889 pandasjupyter 
+
